@@ -1,0 +1,3 @@
+User Story 1 - As a young frog enthusiast of 7 years I want to find out where I can find the species Litoria olongburensis so that I can get my parents to take me to see them for my birthday. 
+User Story 2 - As an older frog enthusiast that is very busy and works 80 hours a week, I want to find out what times of day I can find frogs so that I can find frogs in a short amount of time. 
+User Story 3 - As a frog enthusiast that works overnights, I want to find out which frogs are most likely to be spotted during the nights, so that I can learn their calls, and avoid being scared by their noises. 
