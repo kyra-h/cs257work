@@ -1,10 +1,15 @@
-DROP TABLE IF EXISTS earthquakes;
-CREATE TABLE earthquakes (
-  quaketime timestamp,
-  latitude float,
-  longitude float,
-  magnitude float,
-  quakeid text,
-  place text,
-  quaketype text
+DROP TABLE IF EXISTS frogData;
+CREATE TABLE frogData (
+  dataGeneralizations text,
+  occurrenceID int,
+  eventID int,
+  decimalLatitude float,
+  decimalLongitude float,
+  scientificName text,
+  eventDate text,
+  eventTime text,
+  coordinateUncertaintyInMeters float,
+  geoprivacy text,
+  recordedBy int,
+  stateProvince text
 );
