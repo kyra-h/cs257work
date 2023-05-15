@@ -1,0 +1,82 @@
+h1 {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: #5f866f;;
+    color: white;
+    text-align: center;
+}
+
+
+h3 {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: #b2ced6;
+    color: black;
+    text-align: left;
+    width: 700
+}
+
+
+h4 {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: #ced6b2;
+    color: black;
+    text-align: left;
+    width: 700
+}
+
+
+
+img {
+    float: right;
+    border: 2px solid black;
+    margin-right: 30px;  /* this gives us some breathing room after the image */
+    
+}
+
+div {
+    clear: right;   /* this makes sure the text floats correctly around the image*/
+    padding-bottom: 10px;  /* provides spacing between div elements */
+}
+
+
+
+div.highlight {
+    background-color: azure;
+    width: 300px;
+    border: 2px solid rgb(115, 115, 206);
+    float: left;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+navigation ul {
+    background-color: rgb(201, 239, 213);
+    width: 250px;
+    border: 2px solid rgb(34, 42, 40);
+    float: left;
+    padding: 15px;
+    margin: 10px;
+    font-size: 40;
+    list-style-type: none;
+    
+}
+
+navigation h4 {
+    padding-top: .5em;
+    padding-bottom: .5em;
+    background-color: rgb(201, 239, 213);;
+    color: black;
+    text-align: left;
+}
+
+/* When you mouse over something in the nav bar, turn it blue. */
+navigation li a:hover {
+    color: white;
+    background-color: rgb(80, 139, 107);
+    padding: 5px;
+    /* margin: 5px; */
+}
+
