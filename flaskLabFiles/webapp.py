@@ -68,8 +68,9 @@ def greetAgain():
     '''
     person = request.args.get('person')
     year = request.args.get('classYear')
+    fruit = request.args.get('fruit')
     return render_template('biggerGreet.html',
-                           person=person, year=year)
+                           person=person, year=year, fruit=fruit)
 
 # http://perlman.mathcs.carleton.edu:5113/bigGreet/?person=Kyra&classYear=2024
 
