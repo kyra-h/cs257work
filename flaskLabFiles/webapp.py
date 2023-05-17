@@ -97,31 +97,6 @@ def searchResult():
     return render_template('result.html', results=result)
 
 
-
-@app.route('/formChoice')
-def homeWithForm():
-    '''
-    Demonstration of rendering a simple form.
-    '''
-    return render_template('indexChoice.html')    
-
-
-@app.route('/resultWithChoice', methods=['POST', 'GET'])
-def searchResultsWithChoice():
-    '''
-    This method is executed once you submit the simple form. It embeds the form responses
-    into a web page.
-    '''
-    if request.method == 'POST':
-        resultWithChoice = request.form
-    else: resultWithChoice = None
-
-        # Here is where you would call one or more database methods with the form data.
-
-    return render_template('resultWithChoice.html', resultWithChoice=resultWithChoice)
-
-
-
 '''
 Run the program by typing 'python3 localhost [port]', where [port] is one of 
 the port numbers you were sent by my earlier this term.
