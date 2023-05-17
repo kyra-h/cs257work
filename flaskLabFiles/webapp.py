@@ -109,7 +109,7 @@ def searchResultsWithChoice():
 
         # Here is where you would call one or more database methods with the form data.
 
-    return render_template('resultsWithChoice.html', resultWithChoice=resultWithChoice)
+    return render_template('resultWithChoice.html', resultWithChoice=resultWithChoice)
 
 
 
