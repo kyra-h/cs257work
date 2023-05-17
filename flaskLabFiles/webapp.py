@@ -71,6 +71,9 @@ def greetAgain():
     return render_template('biggerGreet.html',
                            person=person, year=year)
 
+# http://perlman.mathcs.carleton.edu:5113/bigGreet/?person=Kyra&classYear=2024
+
+
 @app.route('/form')
 def homeWithForm():
     '''
