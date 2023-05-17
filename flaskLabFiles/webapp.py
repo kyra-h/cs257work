@@ -96,6 +96,22 @@ def searchResult():
 
     return render_template('result.html', results=result)
 
+
+@app.route('/resultsWithChoice', methods=['POST', 'GET'])
+def searchResult():
+    '''
+    This method is executed once you submit the simple form. It embeds the form responses
+    into a web page.
+    '''
+    if request.method == 'POST':
+        result = request.form
+
+        # Here is where you would call one or more database methods with the form data.
+
+    return render_template('resultsWithChoice.html', results=result)
+
+
+
 '''
 Run the program by typing 'python3 localhost [port]', where [port] is one of 
 the port numbers you were sent by my earlier this term.
