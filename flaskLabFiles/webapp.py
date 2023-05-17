@@ -105,7 +105,7 @@ def searchResultsWithChoice():
     '''
     if request.method == 'POST':
         resultsWithChoice = request.form
-    else: resultsWithChoice = NULL
+    else: resultsWithChoice = None
 
         # Here is where you would call one or more database methods with the form data.
 
