@@ -97,6 +97,15 @@ def searchResult():
     return render_template('result.html', results=result)
 
 
+
+@app.route('/formChoice')
+def homeWithForm():
+    '''
+    Demonstration of rendering a simple form.
+    '''
+    return render_template('indexChoice.html')    
+
+
 @app.route('/resultWithChoice', methods=['POST', 'GET'])
 def searchResultsWithChoice():
     '''
