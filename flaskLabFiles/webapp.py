@@ -97,19 +97,19 @@ def searchResult():
     return render_template('result.html', results=result)
 
 
-@app.route('/resultsWithChoice', methods=['POST', 'GET'])
+@app.route('/resultWithChoice', methods=['POST', 'GET'])
 def searchResultsWithChoice():
     '''
     This method is executed once you submit the simple form. It embeds the form responses
     into a web page.
     '''
     if request.method == 'POST':
-        resultsWithChoice = request.form
-    else: resultsWithChoice = None
+        resultWithChoice = request.form
+    else: resultWithChoice = None
 
         # Here is where you would call one or more database methods with the form data.
 
-    return render_template('resultsWithChoice.html', resultsWithChoice=resultsWithChoice)
+    return render_template('resultsWithChoice.html', resultWithChoice=resultWithChoice)
 
 
 
