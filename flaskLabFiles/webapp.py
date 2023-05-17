@@ -20,7 +20,7 @@ def simpleHome():
     '''
     Simplest example: print something in the browser
     '''
-    return 'Hello, and welcome to your first Flask adventure!'
+    return 'Hi! Frogs are very cool!'
 
 @app.route('/hello')
 def inPlaceHome():
