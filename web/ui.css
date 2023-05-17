@@ -1,0 +1,147 @@
+body {
+    background-color:#e4fcfb;
+    font-family:fantasy;
+}
+
+
+h1 {
+    padding-top: .5em;
+    padding-bottom: .5em;
+    background-color: #5f866f;
+    color: white;
+    text-align: center;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-size: 60;
+}
+
+h3 {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: #b2ced6;
+    color: black;
+    text-align: left;
+    width: 760;
+    font-size:large;
+}
+
+
+h4 {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: #ced6b2;
+    color: black;
+    text-align: left;
+    width: 760;
+    font-size:large;
+}
+
+h5 {
+    font-size:x-large;
+    text-align: left;
+}
+
+h6 {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: #b2bfd6;
+    color: black;
+    text-align: left;
+    width: 760;
+    font-size:large
+}
+
+img {
+    float: right;
+    position:static;
+    border: 2px solid black;
+    margin-right: 30px;  /* this gives us some breathing room after the image */
+    margin-top: 10px;
+    
+}
+
+.right {
+    float: right;
+    width: 230px;
+    padding: 5px;
+}
+
+
+
+div {
+    clear: right;   /* this makes sure the text floats correctly around the image*/
+    padding-bottom: 10px;  /* provides spacing between div elements */
+}
+
+
+
+div.highlight {
+    background-color: azure;
+    width: 300px;
+    border: 2px solid rgb(115, 115, 206);
+    float: left;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+navigation ul {
+    background-color: rgb(201, 239, 213);
+    width: 130px;
+    height: 600px;
+    border: 2px solid rgb(34, 42, 40);
+    float: left;
+    padding: 40px;
+    margin: 15px;
+    font-size: 20;
+    list-style-type: none;
+    font-family:cursive;
+
+    
+}
+
+navigation h4 {
+    /* padding-top: .5em;
+    padding-bottom: .5em; */
+    background-color: rgb(201, 239, 213);
+    color: black;
+    text-align: left;
+}
+
+navigation li{
+    padding:10px;
+}
+
+/* When you mouse over something in the nav bar, turn it blue. */
+navigation li a:hover {
+    color: white;
+    background-color: rgb(80, 139, 107);
+    padding: 5px;
+    margin: 0px;
+}
+
+.frog_link {
+    position: absolute;
+    width: 50px;
+    height: 40px;
+    overflow: hidden;
+    padding: 0 0 0 0;
+    margin: 0;
+    margin-left: -55px;
+    margin-top: -20px;
+}
+
+.frog_link img {
+    float:none;
+    border:none;
+    
+    width: 50px;
+    height: 40px;
+    margin: 55% 0 0 0;
+    padding:10px;
+    padding-bottom: 0;
+}
+
+
+th, td {
+    padding: 20px;
+  }

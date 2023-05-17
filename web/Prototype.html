@@ -1,0 +1,148 @@
+<head>
+    <link rel="stylesheet" href="ui.css">
+</head>
+
+<h1>FROGS: Home</h1>
+
+<Navigation>
+    <ul>
+        <h5> Navigation</h5>
+        <li><a class="animatedLink" href = "#why"> Display</a></li>
+        <li><a class="animatedLink"href = "#fun"> Fun Facts</a></li>
+        <li><a class="animatedLink" href = "#data"> Data</a></li>
+        <li><a class="animatedLink" href = "home"> Home</a></li>
+    </ul>
+</Navigation>
+
+<h6> Search The Dataset</h6>
+<body> Please enter some parameters to search the dataset, or leave blank to see all frogs. </body>
+
+<br><br>
+
+<!-- Made with help from https://blog.hubspot.com/website/html-dropdown -->
+<label for="year">Choose a year to filter by:</label> 
+    <select name="year" id="year"> 
+        <option value="all">all</option> 
+        <option value="2017">2017</option> 
+        <option value="2018">2018</option> 
+        <option value="2019">2019</option> 
+        <option value="2020">2020</option> 
+    </select>
+
+    <br><br>
+
+    <label for="province">Choose a Province/State to filter by:</label> 
+    <select name="province" id="province"> 
+        <option value="all">all</option> 
+        <option value="ACT">ACT</option> 
+        <option value="NSW">NSW</option> 
+        <option value="NT">NT</option> 
+        <option value="QLD">QLD</option> 
+        <option value="SA">SA</option> 
+        <option value="TAS">TAS</option> 
+        <option value="VIC">VIC</option> 
+        <option value="WA">WA</option> 
+        
+    </select>
+
+    <br><br>
+
+    <label for="StartMonth">Choose a start month to filter by:</label> 
+    <select name="sMonth" id="sMonth"> 
+        <option value="all">all</option> 
+        <option value="01">January</option> 
+        <option value="02">February</option> 
+        <option value="03">March</option> 
+        <option value="04">April</option> 
+        <option value="05">May</option> 
+        <option value="06">June</option> 
+        <option value="07">July</option> 
+        <option value="08">August</option> 
+        <option value="09">September</option> 
+        <option value="10">October</option> 
+        <option value="11">November</option> 
+        <option value="12">December</option> 
+    </select>
+
+    <br><br>
+
+    <label for="EndMonth">Choose a end month to filter by:</label> 
+    <select name="eMonth" id="eMonth"> 
+        <option value="all">all</option> 
+        <option value="01">January</option> 
+        <option value="02">February</option> 
+        <option value="03">March</option> 
+        <option value="04">April</option> 
+        <option value="05">May</option> 
+        <option value="06">June</option> 
+        <option value="07">July</option> 
+        <option value="08">August</option> 
+        <option value="09">September</option> 
+        <option value="10">October</option> 
+        <option value="11">November</option> 
+        <option value="12">December</option> 
+    </select>
+
+    <br><br>
+
+
+    <!-- <form action="/action_page.php"> -->
+        <label for="startTime">Start Hour of Day:</label>
+        <input type="text" id="startTime" name="startTime"><br><br>
+        <label for="endTime">End Hour of Day:</label>
+        <input type="text" id="endTime" name="endTime"><br><br>
+        <label for="species">Species:</label>
+        <input type="text" id="Species" name="Species"><br><br>
+        <input type="submit" value="Submit">
+
+      <!-- </form> -->
+
+        <br><br>
+      <table>
+        <tr>
+          <th>Species</th>
+          <th>Date</th>
+          <th>Province</th>
+          <th>Time</th>
+          <th>Latitude</th>
+          <th>Longitude</th>
+        </tr>
+
+        <body>Results for: </body> <br>
+        <body> Species: Cophixalus bombiens </body> <br>
+        <body> Months: August-September </body><br>
+        <body> Year: 2018 </body>
+
+
+        <!-- Results Table -->
+        <tr>
+            <td>Cophixalus bombiens</td>
+            <td>08-02</td>
+            <td>QLD</td>
+            <td>20:10:31</td>
+            <td>-16.5</td>
+            <td>145.3</td>
+        </tr>
+        <tr>
+            <td>Cophixalus bombiens</td>
+            <td>08-02</td>
+            <td>QLD</td>
+            <td>20:24:29</td>
+            <td>-16.5</td>
+            <td>145.3</td>
+        </tr>
+        <tr>
+            <td>Cophixalus bombiens</td>
+            <td>08-02</td>
+            <td>QLD</td>
+            <td>20:27:13</td>
+            <td>-16.5</td>
+            <td>145.3</td>
+    
+          </tr>
+      </table>
+
+
+
+
+<script src = "frogs.js"></script>
